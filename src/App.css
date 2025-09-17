@@ -5,7 +5,24 @@
   text-align: center;
 }
 
-.counter {
-  border: 2px solid sandybrown;
+.section {
+  border: 2px solid lightgreen;
   padding: 8px;
+  margin-bottom: 10px; 
+}
+.card {
+  border: 2px solid orange;
+  padding: 8px;
+  background-color: lightseagreen;
+  width: 450px;
+  height: 100px;
+  align-items: center;
+  
+}
+.btn-style {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer
 }

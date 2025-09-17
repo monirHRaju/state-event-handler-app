@@ -1,13 +1,16 @@
 import './App.css'
 import Count from './Count'
-
+import ToggleMessage from './ToggleMessage'
+import Welcome from './Welcome'
 function App() {
   
 
   return (
     <>
-      <h2>Stat and Event Handling</h2>
+      <Welcome></Welcome>
+      <ToggleMessage></ToggleMessage>
       <Count></Count>
+
     </>
   )
 }

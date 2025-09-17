@@ -18,7 +18,7 @@ export default function Count () {
   return (
 
       <div>
-        <div  className="counter">
+        <div  className="section">
           <h1>Count {count}</h1>
         </div>
         <button onClick={increaseCountHandler}>+1</button>
